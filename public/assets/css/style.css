@@ -1,0 +1,157 @@
+@import "./home/home.css";
+@import "./home/login.css";
+@import "./pages/template/bar.css";
+@import "./pages/template/content.css";
+@import "./pages/admin/dashboard.css";
+@import "./pages/admin/kandidat.css";
+@import "./pages/admin/calendar.css";
+@import "./pages/admin/profile.css";
+@import "./pages/admin/qc.css";
+@import "./pages/pemilih/pemilih.css";
+
+:root {
+  --sidebar-blue: #0069da;
+}
+
+@media (min-width: 1600px) {
+  body {
+    font-size: 16px !important;
+  }
+}
+
+html,
+body {
+  background: #e5e6eb;
+  height: 100%;
+}
+
+.bg-indigo {
+  background: var(--indigo) !important;
+}
+
+.bg-purple {
+  background: var(--purple) !important;
+}
+
+.bg-orange {
+  background: var(--orange) !important;
+}
+
+.bg-success-gra {
+  background-color: var(--success);
+  background-image: linear-gradient(35deg, var(--success), #48e46c) !important;
+}
+
+.bg-warning-gra {
+  background-color: var(--warning);
+  background-image: linear-gradient(35deg, var(--warning), #fcd663) !important;
+}
+
+.bg-orange-gra {
+  background-color: var(--orange);
+  background-image: linear-gradient(35deg, var(--orange), #fda55c) !important;
+}
+
+.bg-info-gra {
+  background-color: var(--info);
+  background-image: linear-gradient(35deg, var(--info), #00dcff) !important;
+}
+
+.bg-danger-gra {
+  background-color: var(--danger);
+  background-image: linear-gradient(35deg, var(--danger), #ff717f) !important;
+}
+
+.bg-purple-gra {
+  background-color: var(--purple);
+  background-image: linear-gradient(35deg, var(--purple), #b58efb) !important;
+}
+
+.bg-primary-gra {
+  background-color: var(--primary);
+  background-image: linear-gradient(35deg, var(--primary), #48a1ff) !important;
+}
+
+.bg-primary-purple-gra {
+  background-color: var(--primary);
+  background-image: linear-gradient(-35deg, var(--primary), #b58efb) !important;
+}
+
+.text-orange {
+  color: var(--orange) !important;
+}
+
+.text-purple {
+  color: var(--purple) !important;
+}
+
+.btn-softblue {
+  background: #3e47b1;
+  color: #fff;
+  border: 0;
+  padding: 6px 30px;
+  min-width: 120px;
+  border-radius: 10px;
+  border: 1px solid #3e47b1;
+  transition: 0.2s;
+}
+
+.btn-softblue:hover {
+  background: #fff;
+  color: #3e47b1;
+  border: 1px solid #3e47b1;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.loader {
+  animation: spin 1s linear infinite;
+}
+
+.loader-btn {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #898989;
+  width: 20px;
+  height: 20px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.btn {
+  font-size: 1em !important;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+.swal2-shown.swal2-height-auto {
+  height: 100% !important;
+}
+
+.form-evoting {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  border-bottom: 3px solid #4f4f4f;
+  transition: all 0.3s;
+  margin-bottom: 24px;
+  font-size: 1.4em;
+}
+
+.form-evoting:focus {
+  outline: none !important;
+  border-bottom: 3px solid #0784b5;
+  transition: all 0.3s;
+}
+
+.form-evoting:active {
+  background: transparent;
+}

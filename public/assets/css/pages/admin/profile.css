@@ -1,0 +1,16 @@
+.card-edit-profile {
+    min-height: 350px !important;
+}
+
+.list-group-item.menu-profile {
+    border-radius: 0 !important;
+    border: 0;
+}
+
+.list-group-item.menu-profile:hover {
+    background: #f0f0f0;
+}
+
+.list-group-item.menu-profile.active {
+    background: #f0f0f0 !important;
+}

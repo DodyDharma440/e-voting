@@ -1,0 +1,10 @@
+.box-qc-head {
+    max-width: 300px;
+    margin: 0 30px;
+    position: relative;
+    top: -20px;
+    min-height: 50px;
+    padding: 10px 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

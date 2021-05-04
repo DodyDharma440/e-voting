@@ -1,0 +1,127 @@
+@media (min-width: 768px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .my-sidebar {
+        width: 60px !important;
+    }
+
+    .my-navbar {
+        margin-left: 0px !important;
+        padding-left: 76px;
+    }
+
+    .my-navbar.full {
+        padding-left: 16px;
+    }
+
+    .container-fluid.content {
+        width: 100% !important;
+    }
+
+    .icon-sidebar {
+        position: relative !important;
+    }
+}
+
+.my-sidebar {
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    transition: all 0.5s ease;
+}
+
+.my-sidebar.sidebar-close {
+    margin-left: -250px;
+    transition: all 0.5s ease;
+}
+
+.sidebar-brand {
+    height: 55px;
+    border-bottom: 2px solid #00000029;
+}
+
+.container-fluid.content {
+    width: calc(100% - 250px);
+    transition: all 0.5s ease;
+}
+
+.container-fluid.content.full {
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.my-navbar {
+    background: var(--sidebar-blue);
+    height: 55px;
+    box-shadow: 0px 1px 3px #00000021;
+    transition: all 0.5s ease;
+    z-index: 1;
+    margin-left: 250px;
+}
+
+.my-navbar.full {
+    margin-left: 0;
+}
+
+.toggle-btn-sidebar {
+    border: 0;
+    outline: none;
+    background: transparent;
+    font-size: 25px;
+    padding-left: 0;
+    color: #fff;
+}
+
+.toggle-btn-sidebar:hover {
+    color: #cccccc;
+}
+
+.toggle-btn-sidebar:focus{
+    outline: 0;
+}
+
+.list-group-item.sidebar-item {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    text-decoration: none;
+    color: #c2c2c2;
+    font-size: 15px;
+}
+
+.list-group-item.sidebar-item:hover {
+    background: #2d3238;
+    border-right: 4px solid var(--warning);
+}
+
+.list-group-item.sidebar-item.active {
+    background: #2d3238;
+    border-right: 4px solid var(--warning);
+}
+
+.icon-sidebar {
+    position: absolute;
+    padding-right: 8px;
+    font-size: 17px;
+}
+
+.title-menu {
+    padding: 6px 20px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.icon-menu-title {
+    left: 220px;
+}
+
+.nav-footer {
+    bottom: 0;
+    top: 100vh;
+}

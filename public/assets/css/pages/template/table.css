@@ -1,0 +1,75 @@
+/*Tabel Kelas*/
+#tableKelas thead tr th {
+    vertical-align: top !important;
+}
+
+#tableKelas thead tr th:nth-child(1) {
+    width: 20px;
+}
+
+#tableKelas thead tr th:nth-child(2) {
+    width: 20px;
+}
+
+#tableKelas tbody tr td {
+    vertical-align: middle !important;
+}
+
+
+/*Tabel Anggota*/
+
+#tableAnggota thead tr th {
+    vertical-align: top !important;
+}
+
+#tableAnggota thead tr th:nth-child(1) {
+    width: 20px;
+}
+
+#tableAnggota thead tr th:nth-child(2) {
+    width: 20px;
+}
+
+#tableAnggota thead tr th:nth-child(5) {
+    width: 100px;
+}
+
+#tableAnggota thead tr th:nth-child(7) {
+    width: 175px;
+}
+
+#tableAnggota tbody tr td:nth-child(4) {
+    text-align: left !important;
+}
+
+#tableAnggota tbody tr td {
+    vertical-align: middle !important;
+}
+
+/*Tabel Kandidat*/
+
+#tableKandidat thead tr th {
+    vertical-align: top !important;
+}
+
+#tableKandidat thead tr th:nth-child(1) {
+    width: 30px;
+}
+
+#tableKandidat tbody tr td {
+    vertical-align: middle !important;
+}
+
+
+/*Table Dashboard */
+
+#tablePemilihTerbaru thead tr th {
+    border-top: 0 !important;
+    border-bottom: 1px solid #dee2e6; 
+}
+
+#tablePemilihTerbaru tbody tr td {
+    border-top: 0 !important;
+    border-bottom: 1px solid #dee2e6
+}
+

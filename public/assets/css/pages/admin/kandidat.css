@@ -1,0 +1,54 @@
+.card-form-kandidat {
+    border-radius: 0;
+    border-top: 4px solid;
+    border-left: 1px solid rgba(0,0,0,.125) !important;
+    border-right: 1px solid rgba(0,0,0,.125) !important;
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+    min-height: 490px;
+    transition: all 0.5s ease;
+}
+
+.card-form-kandidat:hover {
+    box-shadow: 0 0 30px #00000029;
+    transition: all 0.5s;
+}
+
+.img-kandidat {
+    width: 100px;
+    height: 133px;
+}
+
+.no-urut-wrap {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1600px) {
+    .img-detail-kandidat {
+        width: 206px;
+        height: 275px;
+    }
+
+    .img-kandidat-qc {
+        width: 141px;
+        height: 188px;
+        border: 1px solid #eeeeee;
+    }
+}
+
+@media (max-width: 1600px) {
+    .img-detail-kandidat {
+        width: 147px;
+        height: 195px;
+    }
+
+    .img-kandidat-qc {
+        width: 95px;
+        height: 127px;
+        border: 1px solid #eeeeee;
+    }
+}

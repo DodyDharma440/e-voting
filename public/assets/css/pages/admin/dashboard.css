@@ -1,0 +1,33 @@
+.card-dashboard {
+    box-shadow: 0px 0px 10px 0px #00000030;
+    transition: all 0.2s;
+    color: #4c4c4c !important;
+}
+
+.box-icon {
+    position: relative;
+    padding: 10px;
+    top: -30px;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+.box-charts {
+    position: relative;
+    min-height: 200px;
+    top: -35px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-dashboard-new-data {
+    min-height: 313px;
+}

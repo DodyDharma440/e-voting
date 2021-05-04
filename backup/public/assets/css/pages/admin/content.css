@@ -1,0 +1,14 @@
+@import "../template/table.css";
+
+.dynamic-page {
+    margin-top: 60px;
+}
+
+.admin-breadcrumb {
+    padding: 4px;
+    background: none !important;
+}
+
+.img-nodata {
+    height: 240px;
+}

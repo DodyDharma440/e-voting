@@ -1,0 +1,20 @@
+/*header & navbar*/
+.nav-main-page {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.section-header {
+    background: url("../../images/background/headerBg.png");
+    background-size: cover;
+    background-position: top;
+    min-height: 700px;
+}
+
+.title-header {
+    font-size: 4.5em;
+    letter-spacing: 3px;
+}
+
+/*end header & navbar*/
+

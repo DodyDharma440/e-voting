@@ -1,0 +1,82 @@
+.section-header-pemilih {
+    background: url("../../../images/background/bg7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 400px;
+}
+
+.frame-cara-pilih {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 4px solid var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.text-cara {
+    margin-top: 10px;
+    font-size: 13px !important;
+}
+
+.icon-cara-pilih {
+    font-size: 70px;
+    color: #0041d2;
+}
+
+.icon-hand {
+    font-size: 40px;
+    color: #2b41d2;
+    transform: rotate(-35deg);
+    position: relative;
+    bottom: -10px;
+    left: -5px;
+}
+
+.icon-square-tentukan {
+    font-size: 40px;
+    color: #2b41d2;
+    position: relative;
+    left: 7px;
+}
+
+.icon-kandidat-tentukan {
+    position: relative;
+    right: 16.1px;
+    color: #2b41d2;
+}
+
+.icon-question-tentukan {
+    position: absolute;
+    top: 20px;
+    font-size: 35px;
+    color: #2b41d2;
+}
+
+.icon-hand-button {
+    position: relative;
+    right: 25px;
+    font-size: 30px;
+    color: #2b41d2;
+    transform: rotate(-15deg);
+}
+
+.btn-input-radio-osis:checked+.card {
+    border: 1px solid var(--primary) !important;
+    box-shadow: 0 0 10px 0px var(--primary);
+    transition: 0.2s; 
+}
+
+.modal-dialog.modal-detail {
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-content.modal-detail {
+    min-height: 100%;
+}

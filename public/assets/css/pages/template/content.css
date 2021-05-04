@@ -1,0 +1,38 @@
+@import "./table.css";
+
+#admin,
+#pemilih {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 500 !important;
+  font-size: 15px;
+  height: 100% !important;
+}
+
+.dynamic-page {
+  padding-top: 60px;
+  padding-bottom: 85px;
+}
+
+.admin-breadcrumb {
+  padding: 4px;
+  background: none !important;
+}
+
+.img-nodata {
+  height: 240px;
+}
+
+.close-alert {
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+
+.footer-evoting {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background: #fff !important;
+  box-shadow: -1px 3px 10px 1px #00000027;
+}
